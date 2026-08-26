@@ -91,5 +91,5 @@ jobs:
       - name: Build Docker Image
         run: |
           docker build \
-            --build-arg REACT_APP_MOVIE_API_URL=http://localhost:5000 \
+            --build-arg REACT_APP_MOVIE_API_URL=http://adfae9c4376ab461cb03911adcd4d05d-1631229175.us-east-1.elb.amazonaws.com \
             -t mp-frontend:latest .
